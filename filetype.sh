@@ -13,6 +13,6 @@ if [ -f "$file" ]; then
 COUNT=$((COUNT + 1))
 fi 
 done
-
+echo "hii"
 
 echo "Number of file with Extension , $EXTENSION in $DIRECTORY: $COUNT"
